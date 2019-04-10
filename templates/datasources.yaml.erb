@@ -1,0 +1,10 @@
+apiVersion: 1
+
+datasources:
+  - name: <%= @name %>
+    type: influxdb
+    access: proxy
+    database: <%= @database %>
+    user: <%= @username %>
+    password: <%= @password %>
+    url: <%= @url %>

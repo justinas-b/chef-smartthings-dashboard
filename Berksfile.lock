@@ -1,0 +1,28 @@
+DEPENDENCIES
+  smartthings-dashboard
+    path: .
+    metadata: true
+
+GRAPH
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  chef_handler (3.0.3)
+  grafana (4.0.1)
+  influxdb (6.3.1)
+    chef_handler (>= 0.0.0)
+    nodejs (>= 2.4.4)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  nodejs (6.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 5.0)
+  seven_zip (3.1.0)
+    windows (>= 0.0.0)
+  smartthings-dashboard (0.1.0)
+    grafana (= 4.0.1)
+    influxdb (>= 0.0.0)
+  windows (5.3.0)
